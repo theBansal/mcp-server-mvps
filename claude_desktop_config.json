@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "jenkins": {
+      "command": "python3",
+      "args": [
+        "/path/to/jenkins-mcp-server.py"
+      ],
+      "env": {
+        "JENKINS_URL": "http://localhost:32768",
+        "JENKINS_USERNAME": "admin",
+        "JENKINS_API_TOKEN": "1136f434f85309b4516b451682d2426f78"
+      }
+    }
+  }
+}
